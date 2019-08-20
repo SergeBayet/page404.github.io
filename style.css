@@ -1,0 +1,84 @@
+body {
+	
+	width:100vw;
+	height:100vh;
+	margin: 0px;
+	background: -webkit-linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+	background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+	
+
+}
+.background-layer1{
+	position:fixed;
+	margin:0px;
+	z-index:-3;
+	width:100vw;
+	height:100vh;
+	border-bottom-left-radius:50%;
+	border-bottom-right-radius:0%;
+
+	background: -webkit-linear-gradient(-90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+	background: linear-gradient(-90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+
+
+}
+.background-layer2{
+	position:fixed;
+	margin:0px;
+	z-index:-3;
+	width:100vw;
+	height:95vh;
+	border-bottom-left-radius:50%;
+	border-bottom-right-radius:0%;
+
+	background: -webkit-linear-gradient(-90deg, rgb(11, 106, 189), rgb(8, 17, 26));
+	background: linear-gradient(-90deg, rgb(11, 106, 189), rgb(8, 17, 26));
+
+
+}
+.row {
+	display: flex;
+	height:100vh;
+}
+
+.column {
+	flex: 50%;
+	height:100vh;
+	
+}
+.smoke {
+	background-image:url('smoke.png');
+}
+.container {
+	text-align:center;
+}
+a.button {
+	position: absolute;
+	top:80%;
+	text-decoration:none;
+	cursor:pointer;
+	padding:5px;
+	color:grey;
+	box-shadow:3px 3px 5px grey;
+	border:2px solid blue;
+	border-radius:10px;
+	background: -webkit-linear-gradient(-90deg, rgb(11, 106, 189), rgb(8, 17, 26));
+	background: linear-gradient(-90deg, rgb(11, 106, 189), rgb(8, 17, 26));
+	transition: transform 2s;
+	
+}
+a.button:hover {
+	transform: rotateZ(-360deg);
+}
+h2 {
+	margin-bottom:200px;
+}
+h1, h2 {
+	text-align:center;
+	color:grey;
+}
+h1 {
+	font-size:50px;
+	padding-top:20%;
+}
+/* The animation code */
